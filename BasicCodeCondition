@@ -46,13 +46,51 @@
 //     }
 // }
 
-fun main() {
-    val trafficLightColor =   "Green"
+// fun main() {
+//     val trafficLightColor =   "Green"
 
-    val message = 
-    	if (trafficLightColor == "Red") "Stop"
-   		else if (trafficLightColor == "Yellow") "Be Ready"
-  		else if (trafficLightColor == "Green") "Go Ahead"
-  		else "Invalid Color"
-    println(message)
+//     val message = 
+//     	if (trafficLightColor == "Red") "Stop"
+//    		else if (trafficLightColor == "Yellow") "Be Ready"
+//   		else if (trafficLightColor == "Green") "Go Ahead"
+//   		else "Invalid Color"
+//     println(message)
+// }
+
+// fun main() {
+//     val trafficLightColor = "Amber"
+
+//     when (trafficLightColor) {
+//         "Red" -> println("Stop")
+//         "Yellow", "Amber" -> println("Slow")
+//         "Green" -> println("Go")
+//         else -> println("Invalid traffic-light color")
+//     }
+// }
+
+
+// fun main() {
+//     val trafficLightColor = "Amber"
+
+//     val message = when(trafficLightColor) {
+//         "Red" -> "Stop"
+//         "Yellow", "Amber" -> "Slow"
+//         "Green" -> "Go"
+//         else -> "Invalid traffic-light color"
+        
+//     }
+//     println(message)
+// }
+
+
+fun main() {
+    val trafficLightColor =   "Pink"
+
+   val message = when (trafficLightColor) {
+    "Red" -> "Stop" 
+    "Yellow" -> "Be Ready"
+    "Green" ->  "Go Ahead"
+    else -> "Invalid Color"
+    }
+   println(message)
 }
